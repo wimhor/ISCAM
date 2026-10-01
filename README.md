@@ -23,7 +23,7 @@ To run, go back up to the parent directory (or to the directory where the `.jar`
 
     java -jar ISCAM.jar
 
-Requires a Java JRE to be installed (by default on most systems). Depending on the OS used, it may also be possible to start the program by double-clicking the `.jar` file in a file browser.
+Requires a Java JRE to be installed (by default on most systems).
 
 ## Known issues
   - If you change any parameter settings by directly typing into an entry box, make sure to press `<Enter>` afterwards to register the change (a Java "feature").
