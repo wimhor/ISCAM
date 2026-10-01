@@ -16,14 +16,14 @@ to compile the `ISCAM` program or
 
     make jar
 
-to create a `.jar` file which will be placed in the parent directory.
+to create a `.jar` file which will be placed in the parent directory. Alternatively, download the file `ISCAM.jar` directly from this repository.
 
 ## Run
-To run, go back up to the parent directory and type
+To run, go back up to the parent directory (or to the directory where the `.jar` file was downloaded) and type
 
     java -jar ISCAM.jar
 
-Requires a Java JRE to be installed (by default on most systems).
+Requires a Java JRE to be installed (by default on most systems). Depending on the OS used, it may also be possible to start the program by double-clicking the `.jar` file in a file browser.
 
 ## Known issues
   - If you change any parameter settings by directly typing into an entry box, make sure to press `<Enter>` afterwards to register the change (a Java "feature").
