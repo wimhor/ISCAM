@@ -26,4 +26,4 @@ To run, go back up to the parent directory and type
 Requires a Java JRE to be installed (by default on most systems).
 
 ## Known issues
-  - If you change any parameter settings by directly typing into an entry box, make sure to press `enter` afterwards to register the change (a Java "feature").
+  - If you change any parameter settings by directly typing into an entry box, make sure to press `<Enter>` afterwards to register the change (a Java "feature").
