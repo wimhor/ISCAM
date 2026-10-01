@@ -1,0 +1,93 @@
+<html>
+<body>
+
+<h1 align="center"><strong>ISCAM</strong><br>
+Ideal Storage Cellular Automaton Model</h1>
+
+<p align="center">Copyright (c) 2010  Wim Hordijk
+
+<p>This program may be used and distributed freely as long as the copyright
+notice is not removed. It is not guaranteed to be bug-free and fool-proof, and
+no responsibility is taken for any consequenses resulting from its usage.
+
+<h2>User Options</h2>
+
+<ul>
+<li><strong>Grid size:</strong> Set the CA grid size. Minimum size is 10,
+  maximum size is 1000. When the grid size is changed, all cell values are
+  reset to 0.</li>
+<li><strong>Random seed:</strong> Set the random seed. If set to 0, a seed
+  depending on the current clock time is taken. Otherwise the user provided
+  seed value is used for initializing the CA grid.</li>
+<li><strong>S Dynamic:</strong> Set the S dynamic. Currently only one choice is
+  available, viz. the ideal storage function.</li>
+<li><strong>R Dynamic:</strong> Set the R dynamic. Choose from a list of
+  possible functions.</li>
+<li><strong>S control parameter:</strong> Set the control parameter (value of C)
+  in the S dynamic.</li>
+<li><strong>R control parameter:</strong> Set the control parameter (value of C)
+  in the R dynamic.</li>
+<li><strong>Diffusion:</strong> Set the diffusion rate. p=0.0 means no
+  diffusion (only the cell's own current R value is used to determine its new
+  R value), p=0.5 means a cell's new R value depends for 50% on its own current
+  R value and for 50% on the average of the 8 neighboring cells. p=1.0 (full
+  diffusion) means a cell's new R value is fully determined by the average of
+  the 8 neighboring cells.</li>
+<li><strong>Diffusion noise:</strong> If on, at each iteration a uniform random
+  value from [-r:r] is added to the given diffusion rate, where r is the range
+  value provided. If off, the diffusion rate is kept constant over all
+  iterations.</li>
+<li><strong>Zoom:</strong> Set the zoom level. This determines the size of the
+  cells (in pixels) as drawn in the grid.</li>
+<li><strong>Show:</strong> Set after how many iterations the grid is re-drawn.
+  Default value is 1 (every iteration).</li>
+<li><strong>Speed:</strong> Set how fast the CA is updated. A slower rate means
+  a longer delay between updates.</li>
+<li><strong>Display:</strong> Specify what will be displayed:
+  <ul>
+  <li><i>S</i>: Show the S values.</li>
+  <li><i>R</i>: Show the R values.</li>
+  <li><i>S,R</i>: Show the angle of the polar-coordinates representation of the
+    (S,R) pair relative to the fixed point.</li>
+  <li><i>S vs R</i>: Show the phase space of S vs. R values. The blue dot
+    indicates the fixed point of the dynamics, while the red dot tracks the
+    cell at position (0,0) (i.e., the top-left cell).</li>
+  </ul></li>
+<li><strong>Grid lines:</strong> Show the CA grid lines (on) or not (off).</li>
+<li><strong>Color map:</strong> Choose between a monochrome or a rainbow color
+  map.</li>
+</ul>
+
+<h2>Action Buttons</h2>
+
+<ul>
+<li><strong>Init:</strong> Initialize the CA grid at random.</li>
+<li><strong>Step:</strong> Perform one update step of the CA.</li>
+<li><strong>Run:</strong>  Continuously update the CA.</li>
+<li><strong>Stop:</strong> Stop the continuous CA updates.</li>
+<br>
+<li><strong>JPG:</strong> Save the current CA grid (or phase space) as a JPG
+  file.</li>
+<li><strong>Save:</strong> Save the current grid configuration and all
+  parameter settings and user options to a file.</li>
+<li><strong>Load:</strong> Load a grid configuration and parameter values from
+  a file.</li>
+<li><strong>Help:</strong> Show this help message.</li>
+<br>
+<li><strong>Quit:</strong> Quit the ISCAM program.</li>
+</ul>
+
+<h2>CA Grid</h2>
+The <i>S</i> and <i>R</i> values of individual cells in the CA grid can be
+modified manually by clicking on any cell. A small window will pop up,
+displaying the current values of the two variables. These values can be changed
+by clicking in the corresponding entry box and typing a new value. Remember
+to press the <i>Enter</i> key to apply the change (this is a Java "feature"...).
+<br>
+<br>
+<hr><br>
+wim@WorldWideWanderings.net --- www.WorldWideWanderings.net<br>
+<br>
+
+</body>
+</html>
