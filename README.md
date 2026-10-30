@@ -1,9 +1,11 @@
+![Spirals](/spirals1.jpg)
+
 # ISCAM
 Code for the ISCAM program to simulate spontaneous spirals in spatial systems.
 
 This code was used to generate the results in the following publications:
 - W. Hordijk, W. Lin, P. Serocka and A. W. J. Dress. [The ideal storage cellular automaton](https://drops.dagstuhl.de/opus/volltexte/2010/2728/pdf/10231.DressAndreas.Paper.2728.pdf).  In A. Apostolico, A. W. J. Dress and L. Parida (eds.), _Structure discovery in biology: Motifs, networks & phylogenies_, pp. 1-8, 2010.
-- W. Hordijk [Spontaneous spirals in spatial systems](). _In preparation_.
+- W. Hordijk [Spontaneous spirals in spatial systems](https://arxiv.org/abs/2610.38710). arXiv:2610.38710, 2026.
 
 This Java code comes without any warranty, but feel free to use it for your own purposes. If you do so, a reference to the [current repo](https://github.com/wimhor/ISCAM) will be appreciated.
 
