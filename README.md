@@ -1,4 +1,4 @@
-<img src="/spirals1.jpg" width="300">
+![ISCAM logo](/spirals_small.gif)
 
 # ISCAM
 Code for the ISCAM program to simulate spontaneous spirals in spatial systems.
